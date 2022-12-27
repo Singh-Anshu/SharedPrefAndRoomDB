@@ -8,7 +8,7 @@ import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
 @Database(entities = Users.class, exportSchema = false, version = 1)
-public abstract  class DataBaseHelper extends RoomDatabase {
+public abstract   class DataBaseHelper extends RoomDatabase {
 
     private static final String DB_NAME = "usersdb";
     private static DataBaseHelper instance;
